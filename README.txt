@@ -13,6 +13,10 @@ Written by Peter Kim <Author, The Hacker Playbook> and @bbuerhaus
 Usage | python sslScrape.py [CIDR Range]
 E.X   | python sslScrape.py 10.100.100.0/24
  
-Requirements:
-pip install ndg-httpsclient
-pip install python-masscan
+## Installation:
+
+1. Install masscan: apt install masscan
+2. Create a python virtualenv (https://virtualenv.pypa.io/en/stable/) for sslScrape and activate it
+   python3 -m virtualenv sslscrape
+   source sslscrape/bin/activate
+3. pip install -r requirements.txt
