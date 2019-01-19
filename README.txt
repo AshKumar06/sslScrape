@@ -17,6 +17,6 @@ E.X   | python sslScrape.py 10.100.100.0/24
 
 1. Install masscan: apt install masscan
 2. Create a python virtualenv (https://virtualenv.pypa.io/en/stable/) for sslScrape and activate it
-   python3 -m virtualenv sslscrape
+   python -m virtualenv sslscrape
    source sslscrape/bin/activate
 3. pip install -r requirements.txt
